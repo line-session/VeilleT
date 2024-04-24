@@ -1,0 +1,246 @@
+body{
+  background-image: url(assets/image/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1em;
+}
+
+header{
+  height: 100px;
+}
+
+.logo-WaveRider{
+  position: relative;
+}
+
+.logo-WaveRider img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+}
+
+.links{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  height: 150px;
+  top: 45px;
+}
+
+nav li{
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 10px;
+  justify-content: space-around;
+  bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+nav li :hover{
+  border: solid 2px antiquewhite;
+  border-radius: 8px;
+ /* background-color: antiquewhite;*/
+  padding: 3px;
+}
+
+a{
+  color:antiquewhite;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover{
+  opacity: 0.5;
+  color: antiquewhite;
+}
+
+h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+  font-size: 50px;
+}
+
+main p{
+  color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+h2{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.food-image{
+  text-align: center;
+}
+
+.food-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+ justify-items: center;
+}
+
+.food-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.food-item img{
+  height: 400px;
+  width: 400px;
+  border: antiquewhite 1px solid;
+ /* border-radius: 10px 100px / 120px;*/
+  transition: 0.3s ease;
+}
+
+.food-item img:hover{
+  transform: scale(1.1);
+}
+
+footer{
+  height: 200px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#logofooter img{
+  height: 100px;
+  width: auto;
+}
+
+.icone-sociaux{
+  display: flex;
+  align-items: center;
+}
+
+.lien-icone{
+  margin-left: 10px;
+}
+
+.lien-icone img{
+  height: 30px;
+  width: auto;
+}
+
+.next-page p{
+  text-align: center;
+  color: antiquewhite;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.nav-interne li{
+  list-style-type: none;
+}
+
+.nav-interne a{
+  font-size: 30px;
+}
+
+.next-page a{
+  text-decoration: underline;
+  color: red;
+}
+
+#navfooter li{
+  list-style-type: none;
+}
+
+#navfooter li a{
+  text-decoration: none;
+  color: red;
+}
+
+.service{
+  text-align: left;
+}
+
+.formulaire{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 10%;
+  border: 3px black solid;
+  border-radius: 2%;
+  background-color: antiquewhite;
+  padding: 15px;
+  width: 70%
+}
+
+.formulaire label{
+  display: block;
+  margin: 5px;
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+  height: 40px;
+  width: 500px;
+  background-color: white;
+  color: black;
+  border: 2px black solid;
+  border-radius: 8px;
+  margin: 2%;
+  padding: 5px;
+}
+
+#Envoyer{
+  margin: 15px;
+  position: relative;
+  right: px;
+  width: 100px;
+}
+
+#Annuler{
+  margin: 15px;
+  position: relative;
+  left: 260px;
+  width: 100px;
+}
+
+#a-propos{
+  padding: 20px;
+  text-align: center;
+}
+
+#a-propos h2{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#a-propos p{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+#a-propos a{
+  color: red;
+  text-decoration: underline;
+}
